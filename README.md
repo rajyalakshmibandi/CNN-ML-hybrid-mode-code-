@@ -1,5 +1,5 @@
 % Set path to the BUSI dataset
-datasetPath = 'C:\GOPICHAND\Rajyalakshmi PhD WORK\CNN AND ML HYBRID PAPER\BreaKHis Datasets\BreaKHis - different magnifications - Copy\benign\100X';  % <-- Adjust if needed
+datasetPath = 'C:datasets path';  % <-- Adjust if needed
 
 % Define custom ReadFcn to convert grayscale to RGB
 customReadFcn = @(filename) ensureRGB(imread(filename));
